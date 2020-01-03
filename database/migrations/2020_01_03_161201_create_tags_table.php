@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateEexpriencesTable extends Migration
+class CreateTagsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,8 @@ class CreateEexpriencesTable extends Migration
      */
     public function up()
     {
-        Schema::create('expriences', function (Blueprint $table) {
+        Schema::create('tags', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->unsignedInteger('user_id');
-            $table->unsignedInteger('points');
             $table->timestamps();
         });
     }
@@ -28,6 +26,6 @@ class CreateEexpriencesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('expriences');
+        Schema::dropIfExists('tags');
     }
 }

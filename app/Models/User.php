@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
@@ -45,5 +45,10 @@ class User extends Authenticatable
     public function expriences()
     {
         return $this->hasOne(Exprience::class);
+    }
+
+    public function posts()
+    {
+        return $this->hasMany(Posts::class);
     }
 }
