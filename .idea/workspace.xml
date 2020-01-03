@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ca7ae0e-9fd3-49ae-b337-e55c6ff78cad" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Exprience.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_03_151447_create_eexpriences_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +211,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578062445211</updated>
-      <workItem from="1578062457985" duration="4851000" />
+      <workItem from="1578062457985" duration="4928000" />
     </task>
     <task id="LOCAL-00001" summary="hanOne">
       <created>1578064959936</created>
